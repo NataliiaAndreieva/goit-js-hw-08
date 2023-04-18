@@ -26,7 +26,7 @@ const gallery = document.querySelector('.gallery');
   gallery.insertAdjacentHTML('beforeend', itemsMarkup);
 })();
 
-const lightbox = new SimpleLightbox('.gallery a', {
+ new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionPosition: 'bottom',
   captionDelay: 250,
